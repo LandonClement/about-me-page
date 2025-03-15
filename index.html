@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>About Me</h1>
+    <p><em>Welcome to my page! Here's a little about me.</em></p>
+    
+    <!-- Section 1 -->
+    <h2>Family</h2>
+    <p>I am number 4 of 6 kids, 5 brothers with a sister at the end, all of us raised in Seattle Washington.</p>
+
+    <!-- Section 2 -->
+    <h2>Interests</h2>
+    <p>I love music! I'll spend some of my free time attempting to record songs and learn new ones. I love hiking and games from time to time.</p>
+    
+    <!-- Section 3 -->
+    <h2>Religion</h2>
+    <p>Like most people at BYU, I've been a member of the Church of Jesus Christ of Latter-Day Saints all my life. I served a mission in Pachuca, Mexico, getting home around the end of July of 2024.</p>
+
+    <script>
+        const hours = new Date().getHours();
+        const greeting = (hours < 12) ? "Good morning!" : "Good afternoon!";
+        document.body.innerHTML += `<p><strong>${greeting}</strong> Thanks for visiting my page!</p>`;
+    </script>
+</body>
+</html>
